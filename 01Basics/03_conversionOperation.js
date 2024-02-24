@@ -19,7 +19,7 @@ let value = Number(score)
 let isLoggedIn = 1;
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 
 
@@ -27,3 +27,25 @@ console.log(booleanIsLoggedIn);
 // 0 => false
 // "" => false
 // "Akshay" => true
+
+
+
+
+//---------------- OPERATIONS--------------
+str1 = "Hello"
+str2 = " Akshay"
+str3 = str1+str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1"+2+2);// output is 122 // if the string is first then it will convert everything to string
+// console.log(1+2+"2");// output is 32 // if number is first then it will do the integer operation first then string
+
+
+
+
+
+
+
+
