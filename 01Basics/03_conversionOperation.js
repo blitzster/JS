@@ -44,8 +44,14 @@ str3 = str1+str2
 
 
 
+//  >
+//  <
+//  ==
+//  >=
+//  <=
 
+// ===
+console.log("2"===2);  // this prints false
 
-
-
+console.log("2" == 2); // this prints true
 
