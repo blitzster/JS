@@ -38,13 +38,44 @@ const obj3 = {...obj1, ...obj2}
 
 
 
-console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser));  // [ '123abc', 'Sam', false ]
+// console.log(Object.keys(tinderUser));  // [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser));  // [ '123abc', 'Sam', false ]
 //Imp
 //The above values will be displayed in array format so looping over is easy..
 
-console.log(Object.entries(tinderUser));  // [ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.entries(tinderUser));  // [ [ 'id', '123abc' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
 //entries will have the first value as key and the second value will be values
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));  //true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  //true
+
+
+
+
+//Object Destructure
+const course = {
+    courseName: "Javascript",
+    coursePrice: "999",
+    courseInstructor: "Akshay"
+}
+
+//course.courseInstructor
+
+const {courseInstructor} = course
+console.log(courseInstructor);  //Akshay
+//Instead of giving course.courseInstructor we can just give as courseInstructor
+
+
+const {courseInstructor: instructor} = course
+console.log(instructor);  //Akshay
+
+
+
+
+
+
+
+
+
+
+
