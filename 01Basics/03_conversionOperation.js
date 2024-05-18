@@ -51,7 +51,11 @@ str3 = str1+str2
 //  <=
 
 // ===
-console.log("2"===2);  // this prints false
+// console.log("2"===2);  // this prints false
 
-console.log("2" == 2); // this prints true
+// console.log("2" == 2); // this prints true
 
+let age = window.prompt("What is your age? ");
+age = Number(age);
+age += 1;
+console.log(age, typeof age);
